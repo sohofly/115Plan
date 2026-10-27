@@ -1,0 +1,6 @@
+{
+  "name": "花蓮縣115學年度精進教學與校際成果深度分析儀表板",
+  "description": "針對花蓮縣115學年度精進計畫與校際成果進行多維度深度分析、視覺化圖表、三項必辦重點追蹤與精準改善建議互動平台。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

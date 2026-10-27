@@ -74,7 +74,7 @@ export const SlideGallery: React.FC = () => {
 
           <div className="flex items-center space-x-2">
             <a
-              href="/assets/aistudio/____115__.pdf_7e4de513.pdf"
+              href={import.meta.env.BASE_URL + "assets/aistudio/____115__.pdf_7e4de513.pdf"}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg border border-slate-300 hover:bg-slate-50 text-slate-700 text-xs font-semibold shadow-2xs transition-colors"

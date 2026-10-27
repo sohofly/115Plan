@@ -106,7 +106,7 @@ export const Header: React.FC<HeaderProps> = ({
           </button>
           
           <a
-            href="/assets/aistudio/____115__.pdf_7e4de513.pdf"
+            href={import.meta.env.BASE_URL + "assets/aistudio/____115__.pdf_7e4de513.pdf"}
             target="_blank"
             rel="noopener noreferrer"
             className="hidden sm:flex items-center space-x-1 px-3 py-2 rounded-lg text-xs font-medium bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 transition-colors"

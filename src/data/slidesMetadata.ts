@@ -11,7 +11,7 @@ export interface SlideItem {
 export const SLIDES_METADATA: SlideItem[] = [
   {
     page: 1,
-    image: '/slides/slide_01.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_01.jpg',
     title: '封面：教學精進，協力同行',
     category: '願景藍圖',
     summary: '花蓮縣115學年度精進計畫 —— 從深化到永續，點亮每一座教育微光（花蓮縣政府教育處 2026年8月）',
@@ -24,7 +24,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 2,
-    image: '/slides/slide_02.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_02.jpg',
     title: '我們的教育土壤：看見真實的在地挑戰',
     category: '在地挑戰',
     summary: '南北137.5公里狹長地形，代理教師比例約23%且流動大、新任主任占1/5、100人以下小校占2/3、會考英數待加強比率偏高。',
@@ -40,7 +40,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 3,
-    image: '/slides/slide_03.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_03.jpg',
     title: '115學年度：深化與永續的收敘之年',
     category: '願景藍圖',
     summary: '延續113-115學年度藍圖，不盲目追求新增，而是將過往經驗淬鍊為可永續發展的教育生態。',
@@ -54,7 +54,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 4,
-    image: '/slides/slide_04.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_04.jpg',
     title: '計畫願景與推動面向',
     category: '願景藍圖',
     summary: '計畫願景：共創優質教育，深耕永續花蓮。劃分課程發展、專業成長、學習成效三大推動面向。',
@@ -68,7 +68,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 5,
-    image: '/slides/slide_05.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_05.jpg',
     title: '115學年度執行架構：3層面 × 11項策略 × 子計畫對應',
     category: '推動架構',
     summary: '全計畫的核心總覽圖！3大層面、11項策略與24+項子計畫之精準對應表與推動底盤。',
@@ -82,7 +82,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 6,
-    image: '/slides/slide_06.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_06.jpg',
     title: '規劃思維：專業成長轉化具體策略',
     category: '推動架構',
     summary: '以學生為中心、支持教師專業成長：陪伴社群、跨校創新、素養深耕、AI共學四大轉化維度。',
@@ -96,7 +96,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 7,
-    image: '/slides/slide_07.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_07.jpg',
     title: '專業成長轉化：授課教師增能、議題融入與跨域配套',
     category: '推動架構',
     summary: '授課教師增能（生活、藝術、科技、健教、綜合）+ 議題融入（雙閱讀、媒體識讀、安全教育）+ 跨域配套。',
@@ -109,7 +109,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 8,
-    image: '/slides/slide_08.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_08.jpg',
     title: '組織架構與關鍵人力配置',
     category: '組織體系',
     summary: '最高決策、研商諮詢與支持體系：推動小組、執行小組、核心小組的分級與運作週期。',
@@ -122,7 +122,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 9,
-    image: '/slides/slide_09.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_09.jpg',
     title: '輔導諮詢委員協作對話機制',
     category: '組織體系',
     summary: '捨棄一次性審查，建立研擬前需求探勘、研擬中草案對話、執行中/後動態檢核的雙向回饋迴路。',
@@ -135,7 +135,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 10,
-    image: '/slides/slide_10.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_10.jpg',
     title: '帶動改變的生態齒輪：三層級推動組織',
     category: '組織體系',
     summary: '推動小組（決策與整合）、執行小組（管控與追蹤）、核心小組（研析與修正）如齒輪緊密咬合帶動變革。',
@@ -148,7 +148,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 11,
-    image: '/slides/slide_11.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_11.jpg',
     title: '打破孤島：以課發中心為樞紐的專業支持鏈',
     category: '組織體系',
     summary: '課發中心作為樞紐，串聯軌道一（督學政策入校）、軌道二（輔導團專業諮詢）、軌道三（承辦校實務研習）。',
@@ -163,7 +163,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 12,
-    image: '/slides/slide_12.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_12.jpg',
     title: '三項必辦重點（一）：代理代課教師系統支持',
     category: '必辦一(代理)',
     summary: '面對高流動率與缺乏系統陪伴痛點，啟動專-01-2共備工作坊與專-01-1陪伴社群。',
@@ -176,7 +176,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 13,
-    image: '/slides/slide_13.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_13.jpg',
     title: '焦點一：代理代課教師，我們如何接住你？',
     category: '必辦一(代理)',
     summary: '全縣每4-5位教師就有1位代理（國中271人、國小470人），聘期不穩、缺乏系統陪伴、研習碎片化。',
@@ -190,7 +190,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 14,
-    image: '/slides/slide_14.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_14.jpg',
     title: '從單次研習到全年陪伴：雙軌支持系統',
     category: '必辦一(代理)',
     summary: '專-01-1長期陪伴社群（一對一每週共備、月入班觀課）+ 專-01-2實務共備工作坊（當學期即用教案）+ 素-04正向AI教室。',
@@ -203,7 +203,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 15,
-    image: '/slides/slide_15.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_15.jpg',
     title: '三項必辦重點（二）：非專長授課教師增能（國中健教）',
     category: '必辦二(非專長)',
     summary: '國中健體領域非專長授課比率過高，缺乏本科專業支援；執行專-05增能與協-02英語融入健教線上平台。',
@@ -216,7 +216,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 16,
-    image: '/slides/slide_16.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_16.jpg',
     title: '焦點二：賦能非專長授課教師（專-05）',
     category: '必辦二(非專長)',
     summary: '現況診斷：小校健體僅1人，常由配課教師擔任。痛點：無共備夥伴、缺乏系統增能難落實十大主題、缺少多元教材。',
@@ -230,7 +230,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 17,
-    image: '/slides/slide_17.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_17.jpg',
     title: '「背包滿載」的增能模式：帶得走的實戰資源',
     category: '必辦二(非專長)',
     summary: '三大實戰裝備：裝備一雲端教材包、裝備二桌遊與提問策略(ORID)、裝備三當日產出AI實戰教案。',
@@ -244,7 +244,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 18,
-    image: '/slides/slide_18.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_18.jpg',
     title: '三項必辦重點（三）：會考迷思分析運用（以英數領域為例）',
     category: '必辦三(會考迷思)',
     summary: '過去缺乏會考數據導向診斷；推動診-02診斷分析增能、異-01數學AI共學教室與研-01數據應用實作坊。',
@@ -257,7 +257,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 19,
-    image: '/slides/slide_19.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_19.jpg',
     title: '焦點三：看見分數背後的迷思（學力提升）',
     category: '必辦三(會考迷思)',
     summary: '英語待加強比例46.15%、數學39.40%。核心轉變：從「補救分數」轉向「破解迷思」，找出課堂與評量間的落差。',
@@ -270,7 +270,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 20,
-    image: '/slides/slide_20.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_20.jpg',
     title: '從數據到課堂：四步拆解學習迷思',
     category: '必辦三(會考迷思)',
     summary: '四步循環：1.數據診斷(診-01/02 KIDMAP) ➔ 2.輔導團轉化 ➔ 3.課堂實踐與案例徵件(異-01) ➔ 4.入校陪伴(輔-03)。',
@@ -284,7 +284,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 21,
-    image: '/slides/slide_21.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_21.jpg',
     title: '一項自選亮點：跨校共好創新轉型（小校教育生態圈）',
     category: '自選亮點(跨校)',
     summary: '突破地理與編制限制，打破單一學校邊界，建立資源共享、師資互助與專業共備的跨校網絡（異-02）。',
@@ -297,7 +297,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 22,
-    image: '/slides/slide_22.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_22.jpg',
     title: '創新亮點：以行政減量換取教學創新（異-02）',
     category: '自選亮點(跨校)',
     summary: '行政減量（極簡申請、公文減量、雲端紀錄免紙本）+ 教學創新（跨校共備、共授、混齡教學）。',
@@ -310,7 +310,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 23,
-    image: '/slides/slide_23.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_23.jpg',
     title: '打破圍牆的「三共」：共備、共授、共省（菜單制的三種協作模式）',
     category: '自選亮點(跨校)',
     summary: 'A餐小校跨校共力圈(30分車程內實體) + B餐小校跨校合班上課(遠距混成) + C餐單一小校混齡教學。',
@@ -325,7 +325,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 24,
-    image: '/slides/slide_24.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_24.jpg',
     title: '所有改變，都是為了成就更好的課堂',
     category: '願景藍圖',
     summary: '整合四大方案：(1)代理雙軌支持 (2)非專長賦能 (3)學力迷思突破 (4)小校生態圈；土壤改良與專業陪伴。',
@@ -341,7 +341,7 @@ export const SLIDES_METADATA: SlideItem[] = [
   },
   {
     page: 25,
-    image: '/slides/slide_25.jpg',
+    image: import.meta.env.BASE_URL + 'slides/slide_25.jpg',
     title: '結語：點亮每一座教育微光',
     category: '願景藍圖',
     summary: '每一次的增能，都是為了成就更好的課堂。115學年度，我們一起深化與永續。花蓮縣政府教育處。',
